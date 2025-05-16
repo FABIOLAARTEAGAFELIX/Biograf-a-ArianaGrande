@@ -1,0 +1,49 @@
+body{
+    background-color:#f5dfb6c0; /*color del fondo*/
+}
+/*el selector principal para el ancho de la página*/
+#principal{
+    width: 800px;
+    margin: 0px auto;
+    background-color: #94f7ba6b;
+    border-style: solid;
+    border-color: #0d0331;
+    border-width: 2px;
+    padding-left: 20px;
+}
+/*el selector foto para centrar y enmarcar la imagen*/
+#foto{
+    width: 260px;
+    margin: 0% auto;
+    /*float: rigth; */
+    /*float: left;*/
+    /*position: absolute;
+    top: 20px; left: 40px;*/
+    /*position: relative;
+    top: 20px; left: 40px;*/
+    background-color: #c0e1e9;
+    border-style: solid;
+    border-color: #445842;
+    border-width: 3px;
+    padding: 5px;
+}
+/*selector para los párrafos*/
+p{
+    font-family: Arial, 'Courier New', Courier, monospace;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic;
+    color: #26324d;
+    background-color: #dc94eb;
+    /*border-style: solid;
+    border-color: #0b012e;
+    border-width: 2px;*/
+    margin: 14px;
+    padding: 20px;
+    border-radius: 14px;
+}
+/*selctor para los títulos y subtítulos*/
+h1,h2,h3,h4,h5,h6{
+    font-family: Arial;
+    color: #4e5f45;
+}
